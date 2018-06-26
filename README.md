@@ -5,9 +5,9 @@ Dockerized cross-platform, micro web framework for PowerShell.
 
 How to use Polaris in Docker:
 
-1- git clone https://github.com/haidouks/Dockerized-Powershell-Polaris-Webserver.git --recursive
+1- git clone https://github.com/haidouks/dockerized-powershell-polaris-webserver.git --recursive
 
-2- Implement your code in Dockerized-Powershell-Polaris-Webserver/Polaris.ps1 (Please view Polaris Wiki)
+2- Implement your code in dockerized-powershell-polaris-webserver/Polaris.ps1 (Please view Polaris Wiki)
 
 3- docker build -t powershell-polaris Dockerized-Powershell-Polaris-Webserver
 
