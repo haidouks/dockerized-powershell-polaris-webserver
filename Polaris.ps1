@@ -1,6 +1,4 @@
-﻿Import-Module /tmp/Polaris/Polaris.psd1 -ErrorAction Continue
-Stop-Polaris -ErrorAction SilentlyContinue
-Clear-Polaris
+﻿Import-Module /tmp/Polaris/Polaris.psd1 -ErrorAction Stop
 
 New-PolarisGetRoute -Path "/cnsn" -ScriptBlock {
     $response.SetContentType("application/json");
