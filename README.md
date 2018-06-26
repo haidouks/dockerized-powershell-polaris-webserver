@@ -15,7 +15,7 @@ Dockerized cross-platform, micro web framework for PowerShell.
 
 
 
---> Or Simply test it via ;
+--> Or simply run & test it via ;
 
 - docker run -d -p 8000:8000 cnsn/dockerized-powershell-polaris-webserver
 
