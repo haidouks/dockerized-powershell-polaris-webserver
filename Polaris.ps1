@@ -9,5 +9,5 @@ New-PolarisGetRoute -Path "/cnsn" -ScriptBlock {
 Start-Polaris -Port 8000
 
 while($true) {
-    Start-Sleep -Milliseconds 100
+    Start-Sleep -Milliseconds 10
 }
