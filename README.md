@@ -13,6 +13,8 @@ How to use Polaris in Docker:
 
 4- docker run -d -p 8000:8000 powershell-polaris
 
+5- In your browser open http://localhost:8000/cnsn (or your implemented url)
+
 
 
 
