@@ -7,13 +7,14 @@ How to use Polaris in Docker:
 
 1- git clone https://github.com/haidouks/Dockerized-Powershell-Polaris-Webserver.git --recursive
 
-2- Implement your code in Dockerized-Powershell-Polaris-Webserver/Polaris.ps1
+2- Implement your code in Dockerized-Powershell-Polaris-Webserver/Polaris.ps1 (Please view Polaris Wiki)
 
 3- docker build -t powershell-polaris Dockerized-Powershell-Polaris-Webserver
 
 4- docker run -d -p 8000:8000 powershell-polaris
 
 5- In your browser open http://localhost:8000/cnsn (or your implemented url)
+
 
 
 
